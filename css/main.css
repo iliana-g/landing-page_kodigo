@@ -3,3 +3,8 @@
     padding: 0;
     
 }
+
+.contenedor {
+    display: flex;
+    
+}
