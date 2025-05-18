@@ -13,6 +13,55 @@
     justify-content: center;
 }
 
+
+
+#logo-siman{
+    width: 10rem;
+    padding-inline-end: 2rem;
+}
+
+header{
+    padding: 2.5rem;
+    background-color: brown;
+    color: whitesmoke;
+    border: none;
+}
+
+button{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: brown;
+    background-color: whitesmoke;
+    font: bold;
+}
+button:hover{
+    background-color: white;
+    color: brown;
+    font-weight: bolder;
+}
+
+main{
+    padding: 2.5rem;
+}
+
+h1{
+    padding-bottom: 2rem;
+}
+
+h3{
+    margin: 2.5rem;
+    color: brown;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+
+
 ul{
     list-style-type: none;
     margin: 2rem;
@@ -27,16 +76,24 @@ ul{
     font-weight: bold;
 }
 
-#logo-siman{
-    width: 10rem;
-    padding-inline-end: 2rem;
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-
-h1{
-    padding-bottom: 2rem;
-}
-
 
 #logo-siman2{
     width: 10rem;
+}
+
+.rapidas
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.redes img{
+    width: 3rem;
+
 }
