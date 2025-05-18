@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    font-family: "Raleway", sans-serif;
 }
 
 
@@ -16,9 +17,26 @@ ul{
     list-style-type: none;
     margin: 2rem;
     gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+.contenedor-seccion{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-weight: bold;
 }
 
 #logo-siman{
     width: 10rem;
     padding-inline-end: 2rem;
+}
+
+h1{
+    padding-bottom: 2rem;
+}
+
+
+#logo-siman2{
+    width: 10rem;
 }
