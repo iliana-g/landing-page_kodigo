@@ -1,0 +1,36 @@
+.productos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    width: 100%;
+    margin: 1.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background: #ffff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease; /*Hace que la transición de la tarjeta sea más suave*/
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0,4);
+    transform: translateY(-2%);
+}
+
+.card .contenido{
+    padding: 2rem;
+    text-align: center;
+}
+.card .contenido p{
+    line-height: 1.1;
+    color:black;
+}
