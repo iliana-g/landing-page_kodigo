@@ -34,3 +34,7 @@
     line-height: 1.1;
     color:black;
 }
+
+.productos{
+    display: grid;
+}
